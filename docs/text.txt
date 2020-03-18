@@ -1,0 +1,11 @@
+- Tempo
+
+Editor: 1 hora e 20 munutos
+
+Planilha: 30 minutos
+
+Editor: Por ser direto código acaba levando mais tempo para criar a esturtura do HTML e pricipalmente gerar o PDF em Javascript, pois temos que criar tudo na mão.
+
+Planilha: acaba sendo mais rápido, pois temos a maioria das estruturas prontas.
+
+O uso do botão direito do mouse, auxiliou para agilizar nas tarefas de planilhas.
