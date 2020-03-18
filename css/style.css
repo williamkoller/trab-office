@@ -6,7 +6,6 @@ table tbody tr td {
 td img {
   width: 100px;
   height: 50px;
-
 }
 
 .pagination {
@@ -21,6 +20,10 @@ td img {
 }
 
 .pagination a.active {
-  background-color: #4CAF50;
+  background-color: #4caf50;
   color: white;
+}
+
+button {
+  float: right;
 }

@@ -10,36 +10,37 @@
       integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
       crossorigin="anonymous"
     />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.5/jspdf.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.min.js"></script>
     <title>Trabalho Office</title>
   </head>
   <body>
-    <table class="table table-dark">
-      <thead>
-        <tr>
-          <th scope="col">#</th>
-          <th scope="col">Imagem</th>
-          <th scope="col">Texto</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <th scope="row">1</th>
-          <td><img src="img/nodejs.jpg" /></td>
-          <td>Otto</td>
-          <td>
-            <button
-              class="btn btn-success"
-              id="btnImprimir"
-              onclick="CriarPDF()"
-            >
-              Gerar PDF
-            </button>
-          </td>
-        </tr>
-      </tbody>
-    </table>
-    <div class="pagination">
-      <a href="index.html">1</a>
+    <div id="geraPDF">
+      <table class="table table-dark">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Imagem</th>
+            <th scope="col">Texto</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td><img src="img/nodejs.jpg" /></td>
+            <td>NodeJS</td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="pagination">
+        <a href="index.html">1</a>
+      </div>
+      <button class="btn btn-success" id="btnPDF">
+        Gerar PDF
+      </button>
     </div>
   </body>
+
+  <script src="js/index.js"></script>
 </html>
